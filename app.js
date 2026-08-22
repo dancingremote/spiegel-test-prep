@@ -327,10 +327,13 @@
     clearSearch();
     browseRevealed = false;
     pendingSelection = [];
+    const resuming = state.section === sectionName && state.view === view;
     state.section = sectionName;
     state.view = view;
-    state.index = 0;
-    state.atSummary = false;
+    if (!resuming) {
+      state.index = 0;
+      state.atSummary = false;
+    }
     sectionSelect.value = sectionName;
     saveState();
     showScreen('study');
@@ -540,6 +543,7 @@
       ? `<div class="vignette-stem"><div class="vignette-stem-label">Case</div><div class="vignette-stem-text">${escapeHtml(q.vignetteStem)}</div></div>`
       : '';
     const multiHint = q.isMultiSelect && !showAnswer ? `<p class="multi-select-hint">Select ${q.correctLetters.length} answer${q.correctLetters.length === 1 ? '' : 's'}.</p>` : '';
+    const imageHtml = q.image ? `<div class="question-image"><img src="${q.image}" alt="Question image" loading="lazy"></div>` : '';
 
     content.innerHTML = `
       <div class="card">
@@ -552,6 +556,7 @@
         </div>
         ${vignetteHtml}
         <p class="question-text">${escapeHtml(q.question)}</p>
+        ${imageHtml}
         ${multiHint}
         <div class="choices">${choicesHtml}</div>
         ${actionsHtml}
@@ -675,6 +680,14 @@
 
   prevBtn.addEventListener('click', goPrev);
   nextBtn.addEventListener('click', goNext);
+
+  document.addEventListener('keydown', (e) => {
+    if (currentScreen !== 'study') return;
+    const tag = document.activeElement && document.activeElement.tagName;
+    if (tag === 'INPUT' || tag === 'TEXTAREA') return;
+    if (e.key === 'ArrowLeft') { e.preventDefault(); goPrev(); }
+    else if (e.key === 'ArrowRight') { e.preventDefault(); goNext(); }
+  });
 
   finishTestBtn.addEventListener('click', () => {
     finishTest();
