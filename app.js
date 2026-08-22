@@ -123,15 +123,6 @@
       .replace(/>/g, '&gt;');
   }
 
-  function formatExplanation(q) {
-    const explanation = q.explanation || '';
-    if (q.answerText && explanation.startsWith(q.answerText)) {
-      const rest = explanation.slice(q.answerText.length).trim();
-      return `<strong>${escapeHtml(q.answerText)}</strong>${escapeHtml(rest)}`;
-    }
-    return escapeHtml(explanation);
-  }
-
   function questionTag(q) {
     return q.sectionType === 'test' ? `Test ${q.testNum} &middot; Q${q.qnum}` : `${q.vignetteName} &middot; Q${q.qnum}`;
   }
@@ -536,7 +527,7 @@
       answerPanelHtml = `
         <div class="answer-panel">
           ${resultLine}
-          <div class="explanation">${formatExplanation(q)}</div>
+          <div class="explanation">${escapeHtml(q.explanation || '')}</div>
         </div>`;
     }
 
