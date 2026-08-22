@@ -39,6 +39,7 @@
     testSubmitted: {},
     flagged: {},
     missed: {},
+    eliminated: {},
     atSummary: false
   };
 
@@ -294,6 +295,7 @@
       list.forEach(q => {
         delete state.answered[q.id];
         delete state.testAnswers[q.id];
+        delete state.eliminated[q.id];
       });
       delete state.testSubmitted[setKey()];
       state.atSummary = false;
@@ -498,6 +500,8 @@
         else if (!isCorrectChoice && wasSelected) cls += ' incorrect';
       }
       if ((state.mode === 'quiz' && answer) || (state.mode === 'test' && submitted)) cls += ' locked';
+      const eliminatedLetters = state.eliminated[q.id] || [];
+      if (eliminatedLetters.includes(letter)) cls += ' eliminated';
 
       return `<button type="button" class="${cls}" data-letter="${letter}">
         ${badge}<span>${escapeHtml(choiceText)}</span>
@@ -685,8 +689,33 @@
     if (currentScreen !== 'study') return;
     const tag = document.activeElement && document.activeElement.tagName;
     if (tag === 'INPUT' || tag === 'TEXTAREA') return;
-    if (e.key === 'ArrowLeft') { e.preventDefault(); goPrev(); }
-    else if (e.key === 'ArrowRight') { e.preventDefault(); goNext(); }
+    if (e.key === 'ArrowLeft') { e.preventDefault(); goPrev(); return; }
+    if (e.key === 'ArrowRight') { e.preventDefault(); goNext(); return; }
+    if (/^[A-Za-z]$/.test(e.key)) {
+      const btn = content.querySelector(`.choice[data-letter="${e.key.toUpperCase()}"]`);
+      if (btn) { e.preventDefault(); btn.click(); }
+    }
+  });
+
+  content.addEventListener('contextmenu', (e) => {
+    const btn = e.target.closest('.choice');
+    if (!btn) return;
+    e.preventDefault();
+    const list = currentList();
+    if (state.atSummary || !list.length) return;
+    const q = list[state.index];
+    const letter = btn.getAttribute('data-letter');
+    const current = state.eliminated[q.id] || [];
+    const idx = current.indexOf(letter);
+    if (idx >= 0) {
+      const copy = current.slice();
+      copy.splice(idx, 1);
+      if (copy.length) state.eliminated[q.id] = copy; else delete state.eliminated[q.id];
+    } else {
+      state.eliminated[q.id] = current.concat([letter]);
+    }
+    saveState();
+    render();
   });
 
   finishTestBtn.addEventListener('click', () => {
@@ -711,6 +740,7 @@
       delete state.testAnswers[q.id];
       delete state.flagged[q.id];
       delete state.missed[q.id];
+      delete state.eliminated[q.id];
     });
     delete state.testSubmitted[setKey()];
     browseRevealed = false;
@@ -729,6 +759,7 @@
     state.testSubmitted = {};
     state.flagged = {};
     state.missed = {};
+    state.eliminated = {};
     browseRevealed = false;
     pendingSelection = [];
     state.atSummary = false;
