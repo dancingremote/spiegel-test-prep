@@ -13572,7 +13572,7 @@ const QUESTIONS = ﻿[
                            ],
         "isMultiSelect":  false,
         "answerText":  "",
-        "explanation":  "Bowlby and Robertson identified three essential stages of separation response among children. The first stage is that of protest. The child protests the mother\u0027s departure by crying, calling out, and searching for her. The second stage is despair and pain. The child loses faith that the mother will return. The third stage is detachment and denial of affection to the mother figure upon her return. These phases are noted universally in children who go through separation by loss of parents to death, through divorce, or by going off to boarding school. Acceptance is not one of Bowlby\u0027s stages of the separation response. It is the fifth and final stage of K-bler-Ross\u0027 stages of reaction to impending death. Human Development K\u0026S Chapter 2",
+        "explanation":  "Bowlby and Robertson identified three essential stages of separation response among children. The first stage is that of protest. The child protests the mother\u0027s departure by crying, calling out, and searching for her. The second stage is despair and pain. The child loses faith that the mother will return. The third stage is detachment and denial of affection to the mother figure upon her return. These phases are noted universally in children who go through separation by loss of parents to death, through divorce, or by going off to boarding school. Acceptance is not one of Bowlby\u0027s stages of the separation response. It is the fifth and final stage of Kübler-Ross\u0027 stages of reaction to impending death. Human Development K\u0026S Chapter 2",
         "image":  null
     },
     {
@@ -13738,7 +13738,7 @@ const QUESTIONS = ﻿[
         "qnum":  144,
         "vignetteName":  null,
         "vignetteStem":  "",
-        "question":  "Which one of the K-bler-Ross stages of reaction to impending death corresponds to a period in which a patient goes through self-blame for his or her illness and asks \"Why me?\"",
+        "question":  "Which one of the Kübler-Ross stages of reaction to impending death corresponds to a period in which a patient goes through self-blame for his or her illness and asks \"Why me?\"",
         "choices":  [
                         "Shock and denial",
                         "Anger",
@@ -13758,7 +13758,7 @@ const QUESTIONS = ﻿[
                            ],
         "isMultiSelect":  false,
         "answerText":  "",
-        "explanation":  "Elisabeth K-bler-Ross developed a comprehensive paradigm to classify the stages of a person\u0027s reactions to impending death. Stage 1 is that of shock and denial. Upon learning the news that they are dying, people are initially in a state of shock and may deny that the diagnosis is correct. Stage 2 is that of anger. During this stage patients get frustrated, angry, and irritable about their condition. They often ask: \"Why me?\" They typically undergo a lot of self-blame about their illness. Stage 3 is that of bargaining. Patients may try to negotiate or bargain with doctors, friends, family, and even God to alleviate their illness in exchange for good deeds or fulfillment of certain pledges. Stage 4 is that of depression. During this stage, patients demonstrate frank signs and symptoms of depression, including hopelessness, suicidal ideation, social withdrawal, and sleep problems. If the symptoms are severe enough to qualify as an MDD, the patient should be treated with an antidepressant. Stage 5 is that of acceptance. Patients acknowledge and come to terms with the inevitability of their death during this stage. Patients can begin to talk about facing the unknown without fear and with resolution. Psychological Theory and Psychometric Testing K\u0026S Chapter 34",
+        "explanation":  "Elisabeth Kübler-Ross developed a comprehensive paradigm to classify the stages of a person\u0027s reactions to impending death. Stage 1 is that of shock and denial. Upon learning the news that they are dying, people are initially in a state of shock and may deny that the diagnosis is correct. Stage 2 is that of anger. During this stage patients get frustrated, angry, and irritable about their condition. They often ask: \"Why me?\" They typically undergo a lot of self-blame about their illness. Stage 3 is that of bargaining. Patients may try to negotiate or bargain with doctors, friends, family, and even God to alleviate their illness in exchange for good deeds or fulfillment of certain pledges. Stage 4 is that of depression. During this stage, patients demonstrate frank signs and symptoms of depression, including hopelessness, suicidal ideation, social withdrawal, and sleep problems. If the symptoms are severe enough to qualify as an MDD, the patient should be treated with an antidepressant. Stage 5 is that of acceptance. Patients acknowledge and come to terms with the inevitability of their death during this stage. Patients can begin to talk about facing the unknown without fear and with resolution. Psychological Theory and Psychometric Testing K\u0026S Chapter 34",
         "image":  null
     },
     {
