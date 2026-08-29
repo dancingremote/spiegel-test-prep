@@ -12934,8 +12934,8 @@ const QUESTIONS = ﻿[
         "vignetteStem":  "",
         "question":  "Which one of the following causative etiologic factors is not believed to contribute to the genesis of dissociative identity disorder?",
         "choices":  [
-                        "Atraumatic life event",
-                        "Avulnerability for the disorder",
+                        "A traumatic life event",
+                        "A vulnerability for the disorder",
                         "Environmental factors",
                         "Absence of external support",
                         "Prior viral infection or exposure"
@@ -19167,7 +19167,7 @@ const QUESTIONS = ﻿[
         "choices":  [
                         "Alzheimer\u0027s disease",
                         "Chronic alcoholism or drug abuse",
-                        "Alacunar infarct of the subcortical white matter",
+                        "A lacunar infarct of the subcortical white matter",
                         "Schizophrenia",
                         "Trisomy 21 (Down\u0027s syndrome)"
                     ],
@@ -26019,8 +26019,8 @@ const QUESTIONS = ﻿[
                         "A60-year-old elementary school teacher has clandestine sex with a 12-year-old neighbor",
                         "A20-year-old female camp counselor has clandestine sex with a 17-year-old male camper",
                         "A25-year-old man has clandestine sex with his 13-year-old female cousin",
-                        "Agrandfather has clandestine sex with his 9-year-old granddaughter",
-                        "Amarried couple, in their 30s, who are middle-school teachers at the same school, have a m-nage---trois with an 11-year-old male student at their home"
+                        "A grandfather has clandestine sex with his 9-year-old granddaughter",
+                        "A married couple, in their 30s, who are middle-school teachers at the same school, have a ménage-à-trois with an 11-year-old male student at their home"
                     ],
         "choiceLetters":  [
                               "A",
@@ -26763,7 +26763,7 @@ const QUESTIONS = ﻿[
                         "Rejection by the therapist",
                         "Delusion of an erotomanic nature",
                         "Transference on the part of the patient",
-                        "Aprecursor to stalking by the patient",
+                        "A precursor to stalking by the patient",
                         "Displacement of anger onto the therapist"
                     ],
         "choiceLetters":  [
@@ -27505,8 +27505,8 @@ const QUESTIONS = ﻿[
         "question":  "Which of the following is considered incorrect concerning seclusion and restraint?",
         "choices":  [
                         "Seclusion and restraint are considered ethical when no less restrictive alternative is available",
-                        "Anurse observing a seclusion may extend the seclusion time if she feels the patient is still agitated",
-                        "Awritten order from a physician is needed to seclude a patient",
+                        "A nurse observing a seclusion may extend the seclusion time if she feels the patient is still agitated",
+                        "A written order from a physician is needed to seclude a patient",
                         "Seclusion orders are time-limited",
                         "The patient\u0027s condition while in seclusion should be regularly reviewed and documented"
                     ],
