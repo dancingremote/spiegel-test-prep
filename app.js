@@ -527,7 +527,7 @@
       answerPanelHtml = `
         <div class="answer-panel">
           ${resultLine}
-          <div class="explanation">${escapeHtml(q.explanation || '')}</div>
+          <div class="explanation">${escapeHtml(q.explanation || '')}${q.disclaimerNote ? `<br><br><em class="disclaimer-note">${escapeHtml(q.disclaimerNote)}</em>` : ''}</div>
         </div>`;
     }
 
