@@ -123,6 +123,44 @@
       .replace(/>/g, '&gt;');
   }
 
+  function formatExplanation(text) {
+    if (!text) return '';
+    const paragraphs = text.split(/\n\n+/);
+    return paragraphs.map((para, i) => {
+      const lines = para.split('\n');
+      const isLastPara = i === paragraphs.length - 1;
+      const blocks = [];
+      let listBuffer = [];
+      let listType = null; // 'ul' | 'ol'
+      const flushList = () => {
+        if (!listBuffer.length) return;
+        const tag = listType;
+        blocks.push(`<${tag}>${listBuffer.map(item => `<li>${escapeHtml(item)}</li>`).join('')}</${tag}>`);
+        listBuffer = [];
+        listType = null;
+      };
+      lines.forEach(line => {
+        const bulletMatch = line.match(/^- (.*)$/);
+        const numberedMatch = line.match(/^\d+\. (.*)$/);
+        if (bulletMatch) {
+          if (listType && listType !== 'ul') flushList();
+          listType = 'ul';
+          listBuffer.push(bulletMatch[1]);
+        } else if (numberedMatch) {
+          if (listType && listType !== 'ol') flushList();
+          listType = 'ol';
+          listBuffer.push(numberedMatch[1]);
+        } else {
+          flushList();
+          if (line.trim()) blocks.push(`<p>${escapeHtml(line)}</p>`);
+        }
+      });
+      flushList();
+      const html = blocks.join('');
+      return isLastPara && paragraphs.length > 1 ? `<div class="explanation-citation">${html}</div>` : html;
+    }).join('');
+  }
+
   function questionTag(q) {
     return q.sectionType === 'test' ? `Test ${q.testNum} &middot; Q${q.qnum}` : `${q.vignetteName} &middot; Q${q.qnum}`;
   }
@@ -527,7 +565,7 @@
       answerPanelHtml = `
         <div class="answer-panel">
           ${resultLine}
-          <div class="explanation">${escapeHtml(q.explanation || '')}${q.disclaimerNote ? `<br><br><em class="disclaimer-note">${escapeHtml(q.disclaimerNote)}</em>` : ''}</div>
+          <div class="explanation">${formatExplanation(q.explanation)}${q.disclaimerNote ? `<br><br><em class="disclaimer-note">${escapeHtml(q.disclaimerNote)}</em>` : ''}</div>
         </div>`;
     }
 
