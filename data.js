@@ -29616,7 +29616,7 @@ const QUESTIONS = ﻿[
                               "E"
                           ],
         "correctLetters":  [
-                               "B"
+                               "A"
                            ],
         "isMultiSelect":  false,
         "answerText":  "",
