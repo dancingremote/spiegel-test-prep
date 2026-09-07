@@ -26017,9 +26017,9 @@ const QUESTIONS = ﻿[
         "vignetteStem":  "",
         "question":  "Which one of the following would not be considered a case of pedophilia?",
         "choices":  [
-                        "A60-year-old elementary school teacher has clandestine sex with a 12-year-old neighbor",
-                        "A20-year-old female camp counselor has clandestine sex with a 17-year-old male camper",
-                        "A25-year-old man has clandestine sex with his 13-year-old female cousin",
+                        "A 60-year-old elementary school teacher has clandestine sex with a 12-year-old neighbor",
+                        "A 20-year-old female camp counselor has clandestine sex with a 17-year-old male camper",
+                        "A 25-year-old man has clandestine sex with his 13-year-old female cousin",
                         "A grandfather has clandestine sex with his 9-year-old granddaughter",
                         "A married couple, in their 30s, who are middle-school teachers at the same school, have a ménage-à-trois with an 11-year-old male student at their home"
                     ],
