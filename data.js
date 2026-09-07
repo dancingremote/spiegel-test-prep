@@ -29735,7 +29735,7 @@ const QUESTIONS = ﻿[
         "question":  "Which of the following is correct concerning Dr. Daniels hiring Selena to sell his house? (Pick two of five)",
         "choices":  [
                         "There is no ethical issue with his hiring her",
-                        "H e has violated American Psychiatric Association ethics guidelines",
+                        "He has violated American Psychiatric Association ethics guidelines",
                         "His hiring Selena is considered a form of exploitation",
                         "Because they are in a romantic relationship, standard ethics rules no longer apply",
                         "It would be permissible for Selena to barter professional real estate services for psychiatric services"
@@ -29766,12 +29766,12 @@ const QUESTIONS = ﻿[
         "vignetteStem":  "You are a forensic psychiatrist working in private practice. You are faced with the evaluation of a fellow psychiatrist, Dr. Dean Daniels, who is alleged to have had sexual relations with a former patient of his, Selena Victor. It is also alleged that Dr. Daniels hired Selena to sell his house during their relationship, because she is a real estate agent. Dr. Daniels has already been arrested and charged, and he is now out of jail on a $1 million bond posted by his high-profile attorney, L. Lloyd Wolff, Esq. As per his lawyer, he is charged with one count of rape and two counts of sexual assault. His lawyer informs you that Dr. Daniels has a history of depression and alcoholism and has been hospitalized psychiatrically in the past. Dr. Daniels has never had a malpractice case brought against him, and his medical license has never been sanctioned in any way. Dr. Daniels is now back in his office practicing as usual until his first court date comes up next month.",
         "question":  "In a case such as with Dr. Daniels, what would be the possible sanctions if he were to go to trial and be found \"not guilty by reason of insanity\" by the jury on all three charges? (Pick three of six)",
         "choices":  [
-                        "H e could continue to practice psychiatry as before",
-                        "H e could lose his medical license and be remanded to outpatient treatment by the court",
-                        "H e could be allowed to retain his medical license and be remanded by the court to an intensive outpatient psychiatric day program for treatment",
-                        "H e could eventually practice psychiatry again after completion of appropriate treatment of his disorder, based on mandated future psychiatric evaluation",
+                        "He could continue to practice psychiatry as before",
+                        "He could lose his medical license and be remanded to outpatient treatment by the court",
+                        "He could be allowed to retain his medical license and be remanded by the court to an intensive outpatient psychiatric day program for treatment",
+                        "He could eventually practice psychiatry again after completion of appropriate treatment of his disorder, based on mandated future psychiatric evaluation",
                         "His name would be inscribed on a computer-based list of sex offenders if his state maintains such a list",
-                        "H e could continue to practice psychiatry as before, but not with female patients"
+                        "He could continue to practice psychiatry as before, but not with female patients"
                     ],
         "choiceLetters":  [
                               "A",
@@ -30200,7 +30200,7 @@ const QUESTIONS = ﻿[
         "qnum":  4,
         "vignetteName":  "Vignette Nine",
         "vignetteStem":  "Judy Albanese, a local college student, is brought into the emergency room when her roommate called EMS after she collapsed at the gym. She appears malnourished and emaciated. Her roommate told EMS that she hadn\u0027t been eating recently. She had cut down to one meal per day to lose weight. Yesterday the only thing she ate all day was a cereal bar. She has been spending 3 hours each day at the gym after classes in an effort to lose weight. Despite being emaciated, she believes that she is overweight. She recently told her roommate, \"I\u0027m so gross! I don\u0027t know how anyone stands to look at me. All the skinny girls get the boyfriends, the attention, and what do I get?\" When you ask her more questions, she admits to you, \"I feel cold all the time. I have terrible headaches, and when I shower, big clumps of hair fall out of my head.\" She goes on to tell you, \"During class, instead of listening to lectures or taking notes, I think about what I have eaten that day, when I will eat again, what I will eat. I like to bake and bring the treats to school the next day, to give to my friends. I watch them eat. I\u0027m really jealous of them when they eat. I read cookbooks for fun and have collected hundreds of recipes. I never look in the mirror without thinking `Fat.\u0027\"",
-        "question":  "A s part of your evaluation of Judy you wish to calculate her BMI. How do you do that?",
+        "question":  "As part of your evaluation of Judy you wish to calculate her BMI. How do you do that?",
         "choices":  [
                         "100 lb for the first 5 feet in height + 5 lb/inch over 5 feet - 10%",
                         "Height (m2)/weight (kg)",
@@ -31340,7 +31340,7 @@ const QUESTIONS = ﻿[
                         "Draw blood for basic labs and obtain a CT scan of the head to rule out organic causes for his agitation",
                         "Ask the police and emergency technicians why they brought him",
                         "Admit him to the psychiatry unit on an involuntary basis",
-                        "D o your best to obtain his mother\u0027s contact information and call her as soon as possible to find out what \"she has done to him\"",
+                        "Do your best to obtain his mother\u0027s contact information and call her as soon as possible to find out what \"she has done to him\"",
                         "Have him restrained by police and/or hospital security so you can administer him an intramuscular injection of haloperidol and lorazepam to help calm him",
                         "Obtain medical consultation and clearance from the emergency room physician"
                     ],
@@ -31510,7 +31510,7 @@ const QUESTIONS = ﻿[
         "question":  "If the patient is given risperidone (Risperdal Consta) biweekly intramuscular injections and is well stabilized in the hospital on this agent, which of the following would be the best discharge disposition for him for ongoing treatment and care once he is ready to leave the acute inpatient psychiatry unit? (Choose three of seven)",
         "choices":  [
                         "State psychiatric inpatient facility (long-term admission)",
-                        "A CT team home visits",
+                        "ACT team home visits",
                         "Partial hospital program",
                         "Continuing day treatment program",
                         "Outpatient mental health department of a university/teaching hospital",
@@ -31726,11 +31726,11 @@ const QUESTIONS = ﻿[
         "vignetteStem":  "Robert Bradbury is a 30-year-old male with a history of chronic paranoid schizophrenia who is being treated with clozapine. He goes to an outpatient psychiatry appointment and has the following discussion with his psychiatrist. Doctor: How are things going, Robert? Robert: Fine. I\u0027ve been working in the afternoons after my program, and it\u0027s going very well. I\u0027m continuing to drool a lot, like I told you last time, but its manageable. Doctor: How are your symptoms? Are you hearing any voices? Robert: No. I haven\u0027t heard voices in about a year now. I\u0027m really glad about that. (smiles) Doctor: Good. Good. Tell me about this job you\u0027ve been doing. Robert: Well, I\u0027m doing a patient work program through the hospital. We move furniture, run errands, deliver mail within the hospital. Stuff like that. Doctor: Do you like it? Robert: I do, but there is this one woman that I work with who is so nasty. (frowns) She talks down to the patient workers like she\u0027s better than us or as if we\u0027re not as good as other people. It gets me upset sometimes. Doctor: How do you handle it? Robert: My boss tells me just to ignore her, that it\u0027s her problem, not mine, and that she\u0027s not worth getting upset over. Doctor: Are you able to do that? Robert: Yeah. If she says something nasty, I just walk away. I try not to let it bother me as much as it used to. There are plenty of people at work who are friendly, so it doesn\u0027t matter. Doctor: Good. I like your attitude about this. Sounds like you\u0027re handling it well. Robert: Thanks. Oh, before we finish, I need a refill on my clozapine. I went for blood work 2 days ago. The next seven questions are regarding Robert\u0027s mental status examination:",
         "question":  "Robert\u0027s perceptions are best described as:",
         "choices":  [
-                        "N o auditory hallucinations",
-                        "N o visual hallucinations",
-                        "N o olfactory hallucinations",
-                        "N o tactile hallucinations",
-                        "N o gustatory hallucinations"
+                        "No auditory hallucinations",
+                        "No visual hallucinations",
+                        "No olfactory hallucinations",
+                        "No tactile hallucinations",
+                        "No gustatory hallucinations"
                     ],
         "choiceLetters":  [
                               "A",
@@ -31815,13 +31815,14 @@ const QUESTIONS = ﻿[
         "vignetteStem":  "Robert Bradbury is a 30-year-old male with a history of chronic paranoid schizophrenia who is being treated with clozapine. He goes to an outpatient psychiatry appointment and has the following discussion with his psychiatrist. Doctor: How are things going, Robert? Robert: Fine. I\u0027ve been working in the afternoons after my program, and it\u0027s going very well. I\u0027m continuing to drool a lot, like I told you last time, but its manageable. Doctor: How are your symptoms? Are you hearing any voices? Robert: No. I haven\u0027t heard voices in about a year now. I\u0027m really glad about that. (smiles) Doctor: Good. Good. Tell me about this job you\u0027ve been doing. Robert: Well, I\u0027m doing a patient work program through the hospital. We move furniture, run errands, deliver mail within the hospital. Stuff like that. Doctor: Do you like it? Robert: I do, but there is this one woman that I work with who is so nasty. (frowns) She talks down to the patient workers like she\u0027s better than us or as if we\u0027re not as good as other people. It gets me upset sometimes. Doctor: How do you handle it? Robert: My boss tells me just to ignore her, that it\u0027s her problem, not mine, and that she\u0027s not worth getting upset over. Doctor: Are you able to do that? Robert: Yeah. If she says something nasty, I just walk away. I try not to let it bother me as much as it used to. There are plenty of people at work who are friendly, so it doesn\u0027t matter. Doctor: Good. I like your attitude about this. Sounds like you\u0027re handling it well. Robert: Thanks. Oh, before we finish, I need a refill on my clozapine. I went for blood work 2 days ago. The next seven questions are regarding Robert\u0027s mental status examination:",
         "question":  "In addition to monitoring Robert\u0027s WBC/ANC, which other tests would be appropriate to monitor Robert over time? (Choose seven of eight)",
         "choices":  [
-                        "E CG",
+                        "ECG",
                         "Liver function tests",
                         "Clozapine level",
                         "Fasting glucose",
                         "Weight",
                         "Waist circumference",
-                        "Triglycerides and cholesterol H.Echocardiogram"
+                        "Triglycerides and cholesterol",
+                        "Echocardiogram"
                     ],
         "choiceLetters":  [
                               "A",
@@ -31830,7 +31831,8 @@ const QUESTIONS = ﻿[
                               "D",
                               "E",
                               "F",
-                              "G"
+                              "G",
+                              "H"
                           ],
         "correctLetters":  [
                                "A",
@@ -32157,13 +32159,13 @@ const QUESTIONS = ﻿[
         "vignetteStem":  "Kevin Moran is a 75-year-old man who is brought to your office by his 38-year-old daughter Susan for a consultation. Mr. Moran has not been himself for at least a year, his daughter states. He lost his wife to cancer 18 months ago, and they were married for 50 years. Susan tells you that her father cannot live on his own anymore, and she had to take him into her home where she has a spare bedroom for him. The reason for his inability to live independently is because he gets easily confused, forgetful, loses his sense of direction, and starts to wander alone in the street with no purpose. The police brought him home once after they found him wandering in his neighborhood late at night and the poor man couldn\u0027t find his way home. Luckily he was able to remember his own name and his daughter\u0027s name, which helped police trace him back to her home. Susan says her father cannot really cook or clean for himself because he forgets that he leaves the stove on and burns pots and pans, which could result in a severe fire hazard. He can eat, but he forgets the names of common household items like forks and cups, and sometimes even forgets what they are used for. His medical history is significant for coronary artery disease since age 68, hypertension controlled on medication, type 2 diabetes for which he takes oral medications only, and a small stroke a few years ago for which he has been given aspirin. He also has high serum cholesterol and elevated serum triglycerides.",
         "question":  "The treatment of choice for a case of dementia believed to have features of both Alzheimer and vascular type would be: (Pick three of seven)",
         "choices":  [
-                        "A n antiplatelet aggregant agent",
-                        "A n atypical antipsychotic agent",
+                        "An antiplatelet aggregant agent",
+                        "An atypical antipsychotic agent",
                         "A sedative-hypnotic anxiolytic agent",
                         "A cholinesterase-inhibiting agent",
                         "Vitamin B complex supplementation",
-                        "A n antidepressant agent",
-                        "A n antihypertensive agent"
+                        "An antidepressant agent",
+                        "An antihypertensive agent"
                     ],
         "choiceLetters":  [
                               "A",
@@ -32529,7 +32531,7 @@ const QUESTIONS = ﻿[
                         "Acting out behavior due to poor impulse control and poor frustration tolerance",
                         "The displacement of a sexual or emotional conflict onto nonrelated body parts",
                         "Arrested development in the anal phase of psychosexual development",
-                        "A n unresolved Oedipal complex"
+                        "An unresolved Oedipal complex"
                     ],
         "choiceLetters":  [
                               "A",
@@ -32831,8 +32833,8 @@ const QUESTIONS = ﻿[
         "vignetteStem":  "Kerry Fields is a 26-year-old man who comes to you because he is an extreme athlete and is addicted to opioid painkillers. He skis, snowboards, drives motocross motorcycles and all-terrain vehicles, and knows only too well how to abuse his body from all this physical activity. He has had a shoulder surgery for severe rotator cuff tear and at least three knee surgeries on each knee for meniscal tears and repairs. He also has spinal scoliosis and has herniated two cervical and three lumbar intervertebral disks in the past. He has never undergone back surgery, though he has been used to living with chronic pain. He tells you his problem is balancing pain with narcotic overuse. He is currently taking Roxicodone 30 mg, two tablets four times a day, and they are barely keeping him stable. He confesses to you that he also drinks every night, at least two or three vodkas with soda and sometimes more. He also smokes cannabis, about an ounce a week on average. He tells you his back pain, neck pain, and knee pain are typically a 7 out of 10 most days, unless he is doing some extreme sporting activity or other, when his pain can climb to 9 out of 10 after the activity is over. He wants help from you and your honest recommendations.",
         "question":  "Which of the following would be good recommendations for treating Kerry\u0027s problems? (Pick three of six)",
         "choices":  [
-                        "G o to an inpatient facility for alcohol, narcotic, and cannabis detoxification",
-                        "D o an outpatient narcotic taper and switch Kerry to a Vivitrol (naltrexone) monthly injection",
+                        "Go to an inpatient facility for alcohol, narcotic, and cannabis detoxification",
+                        "Do an outpatient narcotic taper and switch Kerry to a Vivitrol (naltrexone) monthly injection",
                         "Send Kerry to a specialized pain clinic for appropriate recommendations and management",
                         "Continue the Roxicodone as prescribed for pain and give Kerry disulfiram (Antabuse) for alcohol relapse prevention",
                         "Send Kerry for orthopedic and neurologic consultation to determine the etiology of his pain",
