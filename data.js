@@ -8551,7 +8551,7 @@ const QUESTIONS = ﻿[
                            ],
         "isMultiSelect":  false,
         "answerText":  "",
-        "explanation":  "The most worrisome side effects of the tricyclic antidepressant agents are cardiac conduction abnormalities, because of course these side effects can lead to fatal cardiac arrhythmias if the medication is taken in overdose. These agents can cause flattened Twaves, tachycardia, prolonged QT intervals, and depressed ST segments on ECGs. The tricyclics are also noted for causing orthostatic hypotension by 1 adrenergic blockade, and they can of course cause sedation and the lowering of the seizure threshold. The tricyclics can also cause anticholinergic side effects, which consist of dry mouth, constipation, blurred vision, and urinary retention. In the male patient suffering from benign prostatic hypertrophy, the anticholinergic load can lead to severe urinary retention and even anuria, which can be very problematic. Bethanechol 25 to 50 mg three to four times daily can reduce urinary hesitancy and retention. Tricyclic antidepressants can actually help with migraine and neuropathic pain prophylaxis, particularly at lower dosages. These are off-label uses for these agents.\n\nPsychopharmacology K\u0026S Chapter 29",
+        "explanation":  "The most worrisome side effects of the tricyclic antidepressant agents are cardiac conduction abnormalities, because of course these side effects can lead to fatal cardiac arrhythmias if the medication is taken in overdose. These agents can cause flattened Twaves, tachycardia, prolonged QT intervals, and depressed ST segments on ECGs. The tricyclics are also noted for causing orthostatic hypotension by α1 adrenergic blockade, and they can of course cause sedation and the lowering of the seizure threshold. The tricyclics can also cause anticholinergic side effects, which consist of dry mouth, constipation, blurred vision, and urinary retention. In the male patient suffering from benign prostatic hypertrophy, the anticholinergic load can lead to severe urinary retention and even anuria, which can be very problematic. Bethanechol 25 to 50 mg three to four times daily can reduce urinary hesitancy and retention. Tricyclic antidepressants can actually help with migraine and neuropathic pain prophylaxis, particularly at lower dosages. These are off-label uses for these agents.\n\nPsychopharmacology K\u0026S Chapter 29",
         "image":  null
     },
     {
@@ -9605,7 +9605,7 @@ const QUESTIONS = ﻿[
                            ],
         "isMultiSelect":  false,
         "answerText":  "Metoclopramide",
-        "explanation":  "Metoclopramide (Reglan) is a potent antiemetic agent that is a benzamide derivative, has phenothiazine-like properties, and can cause extrapyramidal side effects (EPS) and akathisia. It is a potent antagonist of dopamine type 2 (D2) receptors and blocks these receptors on the chemoreceptor trigger zone of the area postrema, which prevents nausea and emesis. Because of its affinity for the D2 receptor, it has been known to cause EPS, especially at higher doses, and can also cause tardive dyskinesia after long-term use and discontinuation. Ondansetron (Zofran) is a potent antiemetic, like metoclopramide, but its mechanism does not involve D2, so it does not have the potential to cause EPS or tardive dyskinesia. It is a potent serotonin (5-HT) 3 antagonist and also works in the area postrema and probably on peripheral vagal nerve receptors. Hydroxyzine (Atarax, Vistaril), like diphenhydramine (Benadryl), is an antihistamine that also has analgesic and antiemetic properties. Is has no effect on dopamine receptors and therefore does not cause EPS or tardive dyskinesia. Tizanidine (Zanaflex) is a potent sedating muscle relaxant that works via 2 adrenergic agonism. It can lower blood pressure, much like clonidine, which has this same mechanism of action. It does not affect dopamine receptors and does not cause EPS or tardive dyskinesia.\n\nPsychopharmacology K\u0026S Chapter 29",
+        "explanation":  "Metoclopramide (Reglan) is a potent antiemetic agent that is a benzamide derivative, has phenothiazine-like properties, and can cause extrapyramidal side effects (EPS) and akathisia. It is a potent antagonist of dopamine type 2 (D2) receptors and blocks these receptors on the chemoreceptor trigger zone of the area postrema, which prevents nausea and emesis. Because of its affinity for the D2 receptor, it has been known to cause EPS, especially at higher doses, and can also cause tardive dyskinesia after long-term use and discontinuation. Ondansetron (Zofran) is a potent antiemetic, like metoclopramide, but its mechanism does not involve D2, so it does not have the potential to cause EPS or tardive dyskinesia. It is a potent serotonin (5-HT) 3 antagonist and also works in the area postrema and probably on peripheral vagal nerve receptors. Hydroxyzine (Atarax, Vistaril), like diphenhydramine (Benadryl), is an antihistamine that also has analgesic and antiemetic properties. Is has no effect on dopamine receptors and therefore does not cause EPS or tardive dyskinesia. Tizanidine (Zanaflex) is a potent sedating muscle relaxant that works via α2 adrenergic agonism. It can lower blood pressure, much like clonidine, which has this same mechanism of action. It does not affect dopamine receptors and does not cause EPS or tardive dyskinesia.\n\nPsychopharmacology K\u0026S Chapter 29",
         "image":  null
     },
     {
@@ -12502,8 +12502,8 @@ const QUESTIONS = ﻿[
         "question":  "The mechanism by which clonidine can help alleviate the symptoms of opioid withdrawal is through mediation of:",
         "choices":  [
                         "Norepinephrine reuptake inhibition",
-                        "2 Adrenergic agonism",
-                        "1 Adrenergic antagonism",
+                        "α2 Adrenergic agonism",
+                        "α1 Adrenergic antagonism",
                         "Dopamine antagonism",
                         "Serotonin antagonism"
                     ],
@@ -12519,7 +12519,7 @@ const QUESTIONS = ﻿[
                            ],
         "isMultiSelect":  false,
         "answerText":  "",
-        "explanation":  "Clonidine (Catapres) is a presynaptic 2-receptor agonist. It is FDA-approved as an antihypertensive agent. It acts by reducing the amount of norepinephrine that is released from the synaptic bouton. This effect decreases sympathetic tone and bodily arousal and activation. The agent diminishes the autonomic symptoms associated with opioid withdrawal, such as tachycardia, hypertension, sweating, and lacrimation. Atomoxetine (Strattera), FDA-approved for ADHD in children and adults, is a norepinephrine reuptake inhibitor. The neuroleptic medications, both conventional and atypical, can cause 1 adrenergic antagonism, thereby causing orthostatic hypotension. Dopamine type 2 antagonism is the putative antipsychotic mechanism of all of the neuroleptic agents, both conventional and atypical. Serotonin antagonism is what makes an atypical antipsychotic atypical. It is, in fact, the ratio of D2 to 5-HT 2 blockade that reduces the EPS of the atypical neuroleptics.\n\nPsychopharmacology K\u0026S Chapter 29",
+        "explanation":  "Clonidine (Catapres) is a presynaptic α2-receptor agonist. It is FDA-approved as an antihypertensive agent. It acts by reducing the amount of norepinephrine that is released from the synaptic bouton. This effect decreases sympathetic tone and bodily arousal and activation. The agent diminishes the autonomic symptoms associated with opioid withdrawal, such as tachycardia, hypertension, sweating, and lacrimation. Atomoxetine (Strattera), FDA-approved for ADHD in children and adults, is a norepinephrine reuptake inhibitor. The neuroleptic medications, both conventional and atypical, can cause α1 adrenergic antagonism, thereby causing orthostatic hypotension. Dopamine type 2 antagonism is the putative antipsychotic mechanism of all of the neuroleptic agents, both conventional and atypical. Serotonin antagonism is what makes an atypical antipsychotic atypical. It is, in fact, the ratio of D2 to 5-HT 2 blockade that reduces the EPS of the atypical neuroleptics.\n\nPsychopharmacology K\u0026S Chapter 29",
         "image":  null
     },
     {
@@ -12814,7 +12814,7 @@ const QUESTIONS = ﻿[
                         "Phosphodiesterase 5 inhibition",
                         "Calcium channel antagonism",
                         "Nitric oxide antagonism",
-                        "1 Adrenergic antagonism",
+                        "α1 Adrenergic antagonism",
                         "Carbonic anhydrase inhibition"
                     ],
         "choiceLetters":  [
@@ -18425,7 +18425,7 @@ const QUESTIONS = ﻿[
         "choices":  [
                         "Serotonin reuptake inhibition",
                         "NE reuptake inhibition",
-                        "2 Adrenergic receptor antagonism",
+                        "α2 Adrenergic receptor antagonism",
                         "Partial dopamine antagonism",
                         "Decreasing breakdown of serotonin in the synaptic cleft"
                     ],
@@ -18441,7 +18441,7 @@ const QUESTIONS = ﻿[
                            ],
         "isMultiSelect":  false,
         "answerText":  "",
-        "explanation":  "Mirtazapine is an antidepressant medication that works by antagonism of presynaptic 2 adrenergic receptors leading to potentiation of serotonergic and noradrenergic neurotransmission. Mirtazapine is sedating, particularly at low doses, which is good for depressed patients with insomnia. It lacks the anticholinergic side effects of the tricyclics and lacks the anxiogenic side effects of the serotonin-selective reuptake inhibitors. Mirtazapine is also notable for its lack of sexual side effects. Other psychiatric medications notable for their lack of sexual side effects include bupropion, buspirone, donepezil, galantamine, and nefazodone.\n\nPsychopharmacology K\u0026S Chapter 29",
+        "explanation":  "Mirtazapine is an antidepressant medication that works by antagonism of presynaptic α2 adrenergic receptors leading to potentiation of serotonergic and noradrenergic neurotransmission. Mirtazapine is sedating, particularly at low doses, which is good for depressed patients with insomnia. It lacks the anticholinergic side effects of the tricyclics and lacks the anxiogenic side effects of the serotonin-selective reuptake inhibitors. Mirtazapine is also notable for its lack of sexual side effects. Other psychiatric medications notable for their lack of sexual side effects include bupropion, buspirone, donepezil, galantamine, and nefazodone.\n\nPsychopharmacology K\u0026S Chapter 29",
         "image":  null
     },
     {
@@ -18627,7 +18627,7 @@ const QUESTIONS = ﻿[
                            ],
         "isMultiSelect":  false,
         "answerText":  "",
-        "explanation":  "Blocking the H1 receptor leads to weight gain and sedation. You should also be familiar with the effects of blocking some other receptors. Blocking acetylcholine receptors leads to dry mouth, constipation, blurry vision, urinary retention, and cognitive dysfunction. Blocking 1 adrenergic receptors leads to orthostatic hypotension and drowsiness. Blocking dopamine receptors can lead to extrapyramidal syndrome (EPS) and elevated prolactin.\n\nBasic Neuroscience K\u0026S Chapter 1",
+        "explanation":  "Blocking the H1 receptor leads to weight gain and sedation. You should also be familiar with the effects of blocking some other receptors. Blocking acetylcholine receptors leads to dry mouth, constipation, blurry vision, urinary retention, and cognitive dysfunction. Blocking α1 adrenergic receptors leads to orthostatic hypotension and drowsiness. Blocking dopamine receptors can lead to extrapyramidal syndrome (EPS) and elevated prolactin.\n\nBasic Neuroscience K\u0026S Chapter 1",
         "image":  null
     },
     {
