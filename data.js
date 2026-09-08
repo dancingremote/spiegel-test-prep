@@ -20814,7 +20814,7 @@ const QUESTIONS = ﻿[
                         "Total protein concentration",
                         "Presence of oligoclonal bands",
                         "Acellularity of the CSF",
-                        "Immunoglobulin Gconcentration"
+                        "Immunoglobulin G concentration"
                     ],
         "choiceLetters":  [
                               "A",
