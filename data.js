@@ -16767,7 +16767,8 @@ const QUESTIONS = ﻿[
         "isMultiSelect":  false,
         "answerText":  "",
         "explanation":  "The draw a person test is a projective test. It is administered by telling the patient to draw a person. Then the patient is asked to draw a person of the sex opposite that of the first drawing. The assumption is that the drawing of the patient\u0027s gender is representative of the self in the environment. The level of detail is also correlated with intelligence in children. The Halstead-Reitan battery is used to find the location and effects of certain brain lesions. It is not projective. The Stanford-Binet test is an intelligence test. The Wechsler-Bellevue test is a memory test. The MMPI is a self-report inventory used to assess personality traits.\n\nPsychological Theory and Psychometric Testing K\u0026S Chapter 5",
-        "image":  null
+        "image":  null,
+        "disclaimerNote":  "Editorial note: The source material\u0027s statement that the Wechsler-Bellevue test is a memory test is incorrect. The Wechsler-Bellevue Intelligence Scale is an intelligence (IQ) test -- the predecessor to today\u0027s WAIS (Wechsler Adult Intelligence Scale). The Wechsler Memory Scale (WMS) is a separate, distinct test that assesses memory. The correct answer to this question (D, the draw a person test) is not affected by this error."
     },
     {
         "id":  "test4-q92",
