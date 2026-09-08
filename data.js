@@ -19292,8 +19292,8 @@ const QUESTIONS = ﻿[
         "question":  "You are studying two variables, a binary predictor variable and a continuous outcome variable. You want to know if the relationship between those two variables is due to chance alone. Which of the following tests would you use?",
         "choices":  [
                         "Analysis of variance (ANOVA)",
-                        "2 test",
-                        "Ttest",
+                        "χ2 test",
+                        "T test",
                         "Negative predictive power",
                         "Predictive validity"
                     ],
@@ -19309,7 +19309,7 @@ const QUESTIONS = ﻿[
                            ],
         "isMultiSelect":  false,
         "answerText":  "",
-        "explanation":  "A binary variable has two possible values, such as yes or no, positive or negative, male or female. A continuous variable will fall somewhere on a range, such as age, height, or weight. Independent variables (predictor variables) are contributing factors to a result or predictors of a certain outcome within an experimental study. They are the variables that are manipulated by the experimenter. Dependent variables (outcome variables) are the outcomes that the independent variables contributed to or predicted. Dependent variables are the variables that are not manipulated by the experimenter. To answer this type of question, first ask yourself two more questions. How many variables are there? Are they binary or continuous? Then consider the following: The 2 test is used for one binary predictor variable and one binary outcome variable. The Ttest is used for one binary predictor variable and one continuous outcome variable. The ANOVA is used for two or more binary predictor variables and one continuous outcome variable. Correlation is used for one continuous predictor variable and one continuous outcome variable. Regression analysis is used with two or more continuous or binary variables and one continuous outcome variable.\n\nStatistics K\u0026S Chapter 5",
+        "explanation":  "A binary variable has two possible values, such as yes or no, positive or negative, male or female. A continuous variable will fall somewhere on a range, such as age, height, or weight. Independent variables (predictor variables) are contributing factors to a result or predictors of a certain outcome within an experimental study. They are the variables that are manipulated by the experimenter. Dependent variables (outcome variables) are the outcomes that the independent variables contributed to or predicted. Dependent variables are the variables that are not manipulated by the experimenter. To answer this type of question, first ask yourself two more questions. How many variables are there? Are they binary or continuous? Then consider the following: The χ2 test is used for one binary predictor variable and one binary outcome variable. The T test is used for one binary predictor variable and one continuous outcome variable. The ANOVA is used for two or more binary predictor variables and one continuous outcome variable. Correlation is used for one continuous predictor variable and one continuous outcome variable. Regression analysis is used with two or more continuous or binary variables and one continuous outcome variable.\n\nStatistics K\u0026S Chapter 5",
         "image":  null
     },
     {
