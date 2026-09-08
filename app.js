@@ -592,8 +592,8 @@
         <div class="card-header">
           <span class="tag">${questionTag(q)}</span>
           <div class="card-header-actions">
-            ${canRetry ? '<button type="button" class="icon-btn retry-btn" id="retryBtn">&#8635; Retry</button>' : ''}
-            <button type="button" class="icon-btn ${isFlagged ? 'flagged' : ''}" id="flagBtn">${isFlagged ? '&#9873; Flagged' : '&#9872; Flag'}</button>
+            ${canRetry ? '<button type="button" class="icon-btn retry-btn" id="retryBtn">&#8635; Retry (R)</button>' : ''}
+            <button type="button" class="icon-btn ${isFlagged ? 'flagged' : ''}" id="flagBtn">${isFlagged ? '&#9873; Flagged (K)' : '&#9872; Flag (K)'}</button>
           </div>
         </div>
         ${vignetteHtml}
