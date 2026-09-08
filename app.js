@@ -729,6 +729,16 @@
     if (tag === 'INPUT' || tag === 'TEXTAREA') return;
     if (e.key === 'ArrowLeft') { e.preventDefault(); goPrev(); return; }
     if (e.key === 'ArrowRight') { e.preventDefault(); goNext(); return; }
+    if (e.key === 'r' || e.key === 'R') {
+      const retryBtn = document.getElementById('retryBtn');
+      if (retryBtn) { e.preventDefault(); retryBtn.click(); }
+      return;
+    }
+    if (e.key === 'k' || e.key === 'K') {
+      const flagBtn = document.getElementById('flagBtn');
+      if (flagBtn) { e.preventDefault(); flagBtn.click(); }
+      return;
+    }
     if (/^[A-Za-z]$/.test(e.key)) {
       const btn = content.querySelector(`.choice[data-letter="${e.key.toUpperCase()}"]`);
       if (btn) { e.preventDefault(); btn.click(); }
