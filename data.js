@@ -18116,7 +18116,7 @@ const QUESTIONS = ﻿[
                         "Beck depression inventory",
                         "Zung self-rating scale",
                         "Carroll rating scale",
-                        "Montgomery--sberg scale",
+                        "Montgomery-Åsberg scale",
                         "Brief psychiatric rating scale (BPRS)"
                     ],
         "choiceLetters":  [
@@ -18131,7 +18131,7 @@ const QUESTIONS = ﻿[
                            ],
         "isMultiSelect":  false,
         "answerText":  "",
-        "explanation":  "This is a difficult question unless you know all of the involved scales. It is easier if you know that the BPRS is a scale used for schizophrenia and psychosis. This is the take-home point. The other scales listed are all mood disorder scales. Will the Montgomery--sberg scale end up on a standardized test near you? Probably not. But the BPRS probably will, so remember it. It is a good idea to be familiar with the most common psychiatric rating scales. We will not print the full scales in this text, but it is worth your time to be familiar with them.\n\nPsychological Theory and Psychometric Testing K\u0026S Chapter 5",
+        "explanation":  "This is a difficult question unless you know all of the involved scales. It is easier if you know that the BPRS is a scale used for schizophrenia and psychosis. This is the take-home point. The other scales listed are all mood disorder scales. Will the Montgomery-Åsberg scale end up on a standardized test near you? Probably not. But the BPRS probably will, so remember it. It is a good idea to be familiar with the most common psychiatric rating scales. We will not print the full scales in this text, but it is worth your time to be familiar with them.\n\nPsychological Theory and Psychometric Testing K\u0026S Chapter 5",
         "image":  null
     },
     {
